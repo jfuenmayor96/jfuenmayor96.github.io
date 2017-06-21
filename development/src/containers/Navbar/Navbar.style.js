@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const NAV = styled.nav`
     border-color: black !important;
     background-color: white;
+    
+    @media (min-width: 992px) {
+        padding: 0px 30px;
+    }
 `;
 
 
@@ -13,7 +17,7 @@ export const NavbarDiv = styled.div`
 `;
 
 export const NavbarLogo = styled.img`
-    transform: translateY(-6px);
+    transform: translateY(-5px);
 `;
 
 export const LI = styled.li`
