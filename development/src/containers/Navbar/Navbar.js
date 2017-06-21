@@ -1,29 +1,30 @@
 import React, { Component } from 'react';
+import {NAV, NavbarDiv, NavbarLogo, LI, ToggleButton} from './Navbar.style';
 
 class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav class='navbar navbar-fixed-top navbar-light'>
-                    <div class="container">
-                        <div class='navbar-header'>
-                            <a id='navbar-logo' class='navbar-brand' href='#top'><span><img class='responsive-image' src='images/logo/logo-blackfilled.png'/></span></a>
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
+                <NAV className='navbar navbar-fixed-top navbar-light'>
+                    <div className="container-fluid">
+                        <div className='navbar-header'>
+                            <a id='navbar-logo' className='navbar-brand' href='#top'><span><NavbarLogo className='responsive-image' src={require('../../assets/Navbar/logo-blackfilled.png')}/></span></a>
+                            <ToggleButton type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span className="sr-only">Toggle navigation</span>
+                                <span className="icon-bar"></span>
+                                <span className="icon-bar"></span>
+                                <span className="icon-bar"></span>
+                            </ToggleButton>
                         </div>
-                        <div id="navbar" class='navbar-collapse collapse'>
-                            <ul class='navbar-nav nav navbar-right'>
-                                <li class='navbar-item'><a href='#about'><span><img src='images/icons/aboutme-black.png'/> ABOUT ME</span></a></li>
-                                <li class='navbar-item'><a href='#projects'><span><img src='images/icons/project-black.png'/> PROJECTS</span></a></li>
-                                <li class='navbar-item'><a href='#under-development'><span><img src="images/icons/contact-black.png"/> CONTACT</span></a></li>
+                        <NavbarDiv id="navbar" className='navbar-collapse collapse'>
+                            <ul className='navbar-nav nav navbar-right'>
+                                <LI className='navbar-item' style={{textAlign: 'center'}}><a href='#about'><span><i className="fa fa-user-circle" aria-hidden="true"></i> ABOUT ME</span></a></LI>
+                                <LI className='navbar-item' style={{textAlign: 'center'}}><a href='#projects'><span><i className="fa fa-cogs" aria-hidden="true"></i> PROJECTS</span></a></LI>
+                                <LI className='navbar-item' style={{textAlign: 'center'}}><a href='#under-development'><span><i className="fa fa-at" aria-hidden="true"></i> CONTACT</span></a></LI>
                             </ul>
-                        </div>
+                        </NavbarDiv>
                     </div>
-                </nav>
+                </NAV>
             </div>
         );
     }
