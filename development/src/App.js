@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
-import Navbar from './containers/Navbar/Navbar';
+import About from './containers/About/About';
 import Main from './containers/Main/Main';
+import Navbar from './containers/Navbar/Navbar';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Navbar/>
-        <Main/>
+        <div style={{paddingLeft: '50px', paddingRight: '50px'}}>
+          <Main/>
+          <About/>
+        </div>
       </div>
     );
   }
