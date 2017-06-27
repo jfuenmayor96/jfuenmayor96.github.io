@@ -32,8 +32,11 @@ class Skills extends Component {
                             <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                                 <IMG src={require("../../assets/About/icons/CSS3.png")} alt="CSS3" title="CSS3"/>
                             </div>
-                            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                 <IMG src={require("../../assets/About/icons/nodejs.png")} alt="NodeJS" title="NodeJS"/>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <IMG src={require("../../assets/About/icons/web2py.jpg")} alt="web2py" title="web2py"/>
                             </div>
                         </DIV>
                         <DIV className="item" alt="Tools">
@@ -94,8 +97,6 @@ class Skills extends Component {
                             </div>
                         </DIV>
                     </DIV>
-
-
                     
                     <a className="left carousel-control" href="#carousel" data-slide="prev" style={{background: 'none'}}>
                         <span className="glyphicon glyphicon-chevron-left"></span>
