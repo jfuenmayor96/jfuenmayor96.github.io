@@ -13,3 +13,11 @@ export const P = styled.p`
     padding-bottom: 20px;
 
 `;
+
+export const DivLogo = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    align-items: center;
+    height: 200px;
+`;

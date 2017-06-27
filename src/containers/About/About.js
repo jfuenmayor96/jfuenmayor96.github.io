@@ -15,7 +15,6 @@ class About extends Component {
                                 <P>My name is Julio Fuenmayor and I am 21 years old. Currently I'm studying the 4th, out of 5, year of Computer Science degree at the Universidad Simon Bolivar in Caracas, Venezuela. I'm interested in subjects like information systems, software engineering, web and software development, systems administration and Unix-like environments. I'm a very curious and self-taught person, eager to learn new things in order to succeed in reaching new goals. </P>
                                 <P>I have skills in: Python, C, Java, Javascript, jQuery, GIT, HTML5, CSS, Bootstrap, Ruby, Django, web2py, PostgreSQL, SQLite and projects planning.</P>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
