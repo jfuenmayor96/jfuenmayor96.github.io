@@ -4,7 +4,7 @@ import {H2, H3, P} from './Projects.style';
 class Projects extends Component {
     render() {
         return (
-            <div>
+            <div id="projects">
                 <div>
                     <div className="container-fluid">
                         <div className="row">
