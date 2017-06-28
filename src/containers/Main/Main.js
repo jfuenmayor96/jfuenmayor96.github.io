@@ -9,14 +9,14 @@ class Main extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <DivLogo className='col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center'>
-                                <IMG className='image-responsive' src={require('../../assets/Main/black-filled.svg')} alt=""/>
+                                <IMG className='image-responsive ' src={require('../../assets/Main/black-filled.svg')} alt="JF Logo" data-aos="zoom-in-down" data-aos-duration="1000"/>
                             </DivLogo>
                         </div>
                         <div className="row">
-                            <H1>Julio Fuenmayor</H1>
+                            <H1 data-aos="fade-up" data-aos-delay="500">Julio Fuenmayor</H1>
                         </div>
-                        <HR/>
-                        <H2>Junior web developer</H2>
+                        <HR data-aos="zoom-in" data-aos-delay="1000"/>
+                        <H2 data-aos="zoom-in-up" data-aos-delay="1200">Junior web developer</H2>
                     </div>
                 </div>
             </div>
