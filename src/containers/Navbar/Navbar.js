@@ -20,7 +20,7 @@ class Navbar extends Component {
                             <ul className='navbar-nav nav navbar-right'>
                                 <LI className='navbar-item' style={{textAlign: 'center'}}><a href='#about'><span><i className="fa fa-user-circle" aria-hidden="true"></i> ABOUT ME</span></a></LI>
                                 <LI className='navbar-item' style={{textAlign: 'center'}}><a href='#projects'><span><i className="fa fa-cogs" aria-hidden="true"></i> PROJECTS</span></a></LI>
-                                <LI className='navbar-item' style={{textAlign: 'center'}}><a href='#under-development'><span><i className="fa fa-at" aria-hidden="true"></i> CONTACT</span></a></LI>
+                                <LI className='navbar-item' style={{textAlign: 'center'}}><a href='#contact'><span><i className="fa fa-at" aria-hidden="true"></i> CONTACT</span></a></LI>
                             </ul>
                         </NavbarDiv>
                     </div>
