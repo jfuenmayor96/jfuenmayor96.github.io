@@ -17,7 +17,6 @@ export const DIV = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 120px;
 `;
 
 export const IMG = styled.img`
