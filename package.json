@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://jfuenmayor96.github.io",
   "dependencies": {
+    "animate.css": "^3.5.2",
+    "aos": "^2.1.1",
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
