@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import {H2, P} from './About.style';
+import {H2, HR, P} from './About.style';
 
 class About extends Component {
     render() {
         return (
             <div>
                 <div>
-                    <div className="container-fluid">
-                        <div className="row">
+                    <div id="about" className="container-fluid">
+                        <div className="row"  data-aos="slide-right" data-aos-delay="1300" data-aos-duration="1800" data-aos-once="true">
                             <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                 <H2>About me</H2>
                             </div>
@@ -16,6 +16,7 @@ class About extends Component {
                             </div>
                         </div>
                     </div>
+                    <HR data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="2300" data-aos-offset="20"/>
                 </div>
             </div>
         );
