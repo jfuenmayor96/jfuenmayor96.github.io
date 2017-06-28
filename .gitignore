@@ -9,13 +9,6 @@
 # production
 /build
 
-# build folder content
-/static
-asset-manifest.json
-favicon.ico
-index.html
-manifest.json
-service-worker.json
 
 # misc
 .DS_Store
