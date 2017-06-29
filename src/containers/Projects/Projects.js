@@ -4,7 +4,7 @@ import {H2, H3, P} from './Projects.style';
 class Projects extends Component {
     render() {
         return (
-            <div id="projects" style={{paddingTop:"10px", marginTop: "-57px"}}>
+            <div id="projects" style={{paddingTop:"77px", marginTop: "-57px"}}>
                 <div className="container-fluid">
                     <div className="row">
                         <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
