@@ -12,7 +12,7 @@ class Skills extends Component {
                 <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2"><span></span></div>
 
 
-                <div id="carousel" className="carousel slide col-lg-8 col-md-8 col-sm-12 col-xs-12" data-ride="carousel" data-interval="5000" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1800" data-aos-once="true" style={{height: '170px'}}>
+                <div id="carousel" className="carousel slide col-lg-8 col-md-8 col-sm-12 col-xs-12" data-ride="carousel" data-interval="5000" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000" data-aos-once="true" style={{height: '170px'}}>
 
                     <div className="carousel-inner ">
                         <DIV className="item">
