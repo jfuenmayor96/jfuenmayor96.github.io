@@ -5,7 +5,7 @@ class Skills extends Component {
     render() {
         return (
             <div className="container-fluid">
-                <DIV className="row" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="1000" data-aos-once="true">
+                <DIV className="row" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000" data-aos-once="true">
                     <H2 className="text-center">Skills</H2>
                 </DIV>
 
