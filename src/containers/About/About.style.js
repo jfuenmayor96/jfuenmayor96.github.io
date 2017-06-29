@@ -12,6 +12,10 @@ export const HR = styled.hr`
     width: 80%;
 `;
 
+export const IMG = styled.img`
+    border-radius: 8px 8px;
+`;
+
 export const P = styled.p`
     font-family: 'Ropa Sans';
     text-align: justify;
