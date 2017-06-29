@@ -46,7 +46,7 @@ class Projects extends Component {
 
                                         <P><b>Link</b>: <a href=' https://jfuenmayor96.github.io/'> https://jfuenmayor96.github.io/</a></P>
 
-                                        <P><b>Repository</b>: <a href='https://github.com/jfuenmayor96/jfuenmayor96.github.io'>https://github.com/jfuenmayor96/jfuenmayor96.github.io</a></P>
+                                        <P><b>Repository</b>: <a href='https://github.com/jfuenmayor96/jfuenmayor96.github.io'>https://github.com/jfuenmayor96/</a></P>
                                     </li>
                                 </ul>
                             </div>
