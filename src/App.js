@@ -17,12 +17,10 @@ class App extends Component {
     return (
       <div>
         <Navbar/>
-        <div style={{paddingLeft: '50px', paddingRight: '50px'}}>
           <Main/>
           <About/>
           <Skills/>
           <Projects/>
-        </div>
       </div>
     );
   }
