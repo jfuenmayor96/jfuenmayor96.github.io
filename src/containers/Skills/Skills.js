@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {H2, H3, DIV, IMG} from "./Skills.style";
+import {H2, H3, HR, DIV, IMG} from "./Skills.style";
 
 class Skills extends Component {
     render() {
@@ -127,6 +127,8 @@ class Skills extends Component {
                 </div>
 
                 <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2"><span></span></div>
+
+                <HR data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" data-aos-offset="0" data-aos-once="true"/>
 
             </div>
 

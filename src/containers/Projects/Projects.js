@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {H2, H3, P} from './Projects.style';
+import {H2, H3, HR, P} from './Projects.style';
 
 class Projects extends Component {
     render() {
@@ -52,6 +52,9 @@ class Projects extends Component {
                         
                     </div>
                 </div>
+
+                <HR data-aos="zoom-in" data-aos-delay="0" data-aos-duration="1000" data-aos-offset="0" data-aos-once="true"/>
+
             </div>
         );
     }

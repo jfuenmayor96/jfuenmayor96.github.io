@@ -12,6 +12,13 @@ export const H3 = styled.h3`
     display: inline !important;
 `;
 
+export const HR = styled.hr`    
+    border: 0px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    width: 80%;
+`;
+
 export const P = styled.p`
     font-family: 'Ropa Sans';
     text-align: justify;
