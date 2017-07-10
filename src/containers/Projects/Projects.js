@@ -14,6 +14,29 @@ class Projects extends Component {
                             <P>These are the projects in which I have colaborated:</P>
                             <ul>
                                 <li>
+                                    <H3>Mark Steem Down</H3>
+                                    <P style={{paddingTop: '15px'}}><b>Description</b>: A simple online MarkDown editor, which offers the basic functions of formatting and also shows a live preview of the post.</P>
+
+                                    <P><b>Developed using</b>: ReactJS, HTML, CSS, Bootstrap</P>
+
+                                    <P><b>Role in the project</b>: chief manager.</P>
+
+                                    <P><b>Link</b>: <a href='https://mark-steem-down.herokuapp.com/'> https://mark-steem-down.herokuapp.com/</a></P>
+                                    <P><b>Repository</b>: <a href='https://github.com/jfuenmayor96/mark-steem-down'>https://github.com/jfuenmayor96/mark-steem-down</a></P>
+
+                                </li>
+                                <li>
+                                    <H3>Agrochannel.TV</H3>
+                                    <P style={{paddingTop: '15px'}}><b>Description</b>: A colombian streaming website who wants to support the population of entrepreneurs of the agricultural and livestock sector in Colombia. They offer a series of streaming shows where the farmers show they work and talk about it.</P>
+
+                                    <P><b>Developed using</b>: ReactJS, HTML, CSS, Bootstrap</P>
+
+                                    <P><b>Role in the project</b>: front-end developer and server manager.</P>
+
+                                    <P><b>Link</b>: <a href='www.agrochannel.tv'> wwww.agrochannel.tv</a></P>
+
+                                </li>
+                                <li>
                                     <H3>SIGPIE</H3>
                                     <P style={{paddingTop: '15px'}}><b>Description</b>: Stands for Sistema de Gestion del Programa de Intercambio Estudiantil. SIGPIE is an information system created in the subject PS1116. Its main purpose was to agilize the process of the students applications to the different exchange programs that the Universidad Simon Bolivar maintains with other institutions. It allows the students to register in the program and fill in their personal information as well as attach all the documents required. The personnel in charge can manage this information and download it from the server as a CSV file, reducing significantly the amount of paper and time required to do these tasks manually. It was developed using IBM's RUP in a team of 10 persons.</P>
 
