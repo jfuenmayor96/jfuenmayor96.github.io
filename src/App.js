@@ -5,6 +5,7 @@ import Main from './containers/Main/Main';
 import Navbar from './containers/Navbar/Navbar';
 import Projects from './containers/Projects/Projects';
 import Skills from './containers/Skills/Skills';
+import Footer from './containers/Footer/Footer';
 import { DIV } from './App.style';
 
 AOS.init({
@@ -22,6 +23,7 @@ class App extends Component {
           <About/>
           <Skills/>
           <Projects/>
+          <Footer/>
         </DIV>
       </div>
     );
