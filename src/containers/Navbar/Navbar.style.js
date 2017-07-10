@@ -24,7 +24,23 @@ export const LI = styled.li`
     font-family: 'Ropa Sans';
 
     a {
+        transition: all .6s ease-in !important;
         color: black;
+        border-radius: 0px;
+        background-color: none;
+        opacity: 1;
+        border-left: solid white 1px;
+        border-right: solid white 1px;
+
+        &:hover {
+            transition: all .4s ease-out !important;
+            background-color: gray;
+            opacity: .9;
+            border-radius: 8px;
+            border-left: solid black 1px;
+            border-right: solid black 1px;
+
+        }
     }
 
     i {
