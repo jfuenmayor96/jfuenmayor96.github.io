@@ -14,6 +14,8 @@ export const HR = styled.hr`
 
 export const IMG = styled.img`
     border-radius: 8px 8px;
+    box-shadow: 10px 10px 5px #888888 !important;
+
 `;
 
 export const P = styled.p`
