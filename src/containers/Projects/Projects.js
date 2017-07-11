@@ -13,7 +13,7 @@ class Projects extends Component {
                         </div>
                     </div>
                     <div className="row" style={{paddingTop: "15px", paddingBottom: "15px"}}>
-                        <div className='col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center'>
+                        <div className='col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center' data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-offset="320" data-aos-once="true">
                             <IMG className="image-responsive" src={require("../../assets/Projects/mark-steem-down.jpg")} height="auto" width="auto"/>
                         </div>
                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12 pull-right' style={{paddingTop: "20px"}}>
@@ -29,7 +29,7 @@ class Projects extends Component {
                         </div>
                     </div>
                     <div className="row" style={{paddingTop: "15px", paddingBottom: "15px"}}>  
-                        <div className='col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center'>
+                        <div className='col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center' data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-offset="320" data-aos-once="true">
                             <IMG className="image-responsive" src={require("../../assets/Projects/agrochannel.png")} height="auto" width="auto"/>
                         </div>                  
                         <div className='col-lg-7 col-md-8 col-sm-12 col-xs-12 pull-right' style={{paddingTop: "20px"}}>
@@ -40,11 +40,11 @@ class Projects extends Component {
 
                             <P><b>Role in the project</b>: front-end developer and server manager.</P>
 
-                            <P><b>Link</b>: <a href='www.agrochannel.tv'> wwww.agrochannel.tv</a></P>
+                            <P><b>Link</b>: <a href='http://agrochannel.tv'> wwww.agrochannel.tv</a></P>
                         </div>
                     </div>
                     <div className="row" style={{paddingTop: "15px", paddingBottom: "15px"}}>    
-                        <div className='col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center'>
+                        <div className='col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center' data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-offset="320" data-aos-once="true">
                             <IMG className="image-responsive" src={require("../../assets/Projects/portfolio.png")} height="auto" width="auto"/>
                         </div>   
                         <div className='col-lg-7 col-md-8 col-sm-12 col-xs-12 pull-right' style={{paddingTop: "20px"}}>

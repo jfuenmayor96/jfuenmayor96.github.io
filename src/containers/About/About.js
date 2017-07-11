@@ -16,7 +16,7 @@ class About extends Component {
                         </div>
                     </div>
                 </div>
-                <HR data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" data-aos-offset="0" data-aos-once="true"/>
+                <HR data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500" data-aos-offset="0" data-aos-once="true"/>
             </div>
         );
     }
