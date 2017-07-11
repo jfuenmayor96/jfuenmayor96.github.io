@@ -1,8 +1,11 @@
 {
-  "main.js": "static/js/main.2751110b.js",
-  "main.js.map": "static/js/main.2751110b.js.map",
+  "main.js": "static/js/main.999a4b3c.js",
+  "main.js.map": "static/js/main.999a4b3c.js.map",
   "static/media/C.png": "static/media/C.c0aa1bc5.png",
+  "static/media/agrochannel.png": "static/media/agrochannel.69707591.png",
   "static/media/black-filled.svg": "static/media/black-filled.60840025.svg",
+  "static/media/mark-steem-down.jpg": "static/media/mark-steem-down.1081377b.jpg",
+  "static/media/portfolio.png": "static/media/portfolio.7548a040.png",
   "static/media/posgresql.png": "static/media/posgresql.4c98d082.png",
   "static/media/profile_pic.jpg": "static/media/profile_pic.52262ab9.jpg"
 }
