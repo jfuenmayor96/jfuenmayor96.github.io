@@ -23,6 +23,9 @@ export const P = styled.p`
     font-family: 'Ropa Sans';
     text-align: justify;
     display: block;
+`;
 
-
+export const IMG = styled.img`
+    box-shadow: 10px 10px 5px #888888 !important;
+    border-radius: 8px 8px;
 `;
