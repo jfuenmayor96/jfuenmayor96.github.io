@@ -117,3 +117,13 @@ export const Submit = styled.button`
 	}
 
 `;
+
+export const Quotes = styled.div`
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-end;
+	padding: 0px 15px;
+`;
