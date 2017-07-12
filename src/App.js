@@ -5,6 +5,7 @@ import Main from './containers/Main/Main';
 import Navbar from './containers/Navbar/Navbar';
 import Projects from './containers/Projects/Projects';
 import Skills from './containers/Skills/Skills';
+import Contact from './containers/Contact/Contact';
 import Footer from './containers/Footer/Footer';
 import { DIV } from './App.style';
 
@@ -23,6 +24,8 @@ class App extends Component {
           <About/>
           <Skills/>
           <Projects/>
+          <Contact/>
+          <hr/>
           <Footer/>
         </DIV>
       </div>
