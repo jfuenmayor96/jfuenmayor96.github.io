@@ -16,7 +16,7 @@ class Main extends Component {
                             <H1 data-aos="fade-up" data-aos-delay="500">Julio Fuenmayor</H1>
                         </div>
                         <HR data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" data-aos-offset="0"/>
-                        <H2 data-aos="zoom-in-up" data-aos-delay="1200" data-aos-duration="1000" data-aos-offset="0">Junior web developer</H2>
+                        <H2 data-aos="zoom-in-up" data-aos-delay="1200" data-aos-duration="1000" data-aos-offset="0">Junior full stack developer</H2>
                     </div>
                 </div>
             </div>
