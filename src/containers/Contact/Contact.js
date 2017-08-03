@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {DivForm, H2, INPUT, PFormulario, Submit, TEXTAREA, Quotes} from './Contact.style'; 
+import {DivForm, H2, INPUT, PFormulario, Submit, TEXTAREA, Quotes} from './Contact.style';
 
 class Contact extends Component {
 
@@ -33,11 +33,11 @@ class Contact extends Component {
             <div style={{paddingBottom: "15px"}}>
                     <div className="container-fluid">
                         {/*Contact section*/}
-                        <div className="row">
-                            <div id="contact" className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div className="row"  >
+                            <div id="contact" className="col-lg-6 col-md-6 col-sm-12 col-xs-12" style={{marginTop: "-57px", paddingTop: "57px"}}>
                                 <h2>Contact me</h2>
                                 <p style={{paddingBottom: "15px"}}>If you are interested in a budget for your web site project, a consultation, want me to create a website for you or want to contact me for anything else, please fill up the form.</p>
-                                
+
                                 <form id="gform" method="POST" action={this.action}>
                                     <div className='has-warning'>
                                         <span>Name*</span>
@@ -46,13 +46,13 @@ class Contact extends Component {
                                     </div>
                                     <div className='has-warning'>
                                         <span>Email*</span>
-                                        <span id="emailAlert" style={{display: 'none', color: "red"}}> I need to know where to contact you!</span>	
-                                        <span id="emailAlert2" style={{display: 'none', color: "red"}}> That email address doesn't seem right.</span>					
+                                        <span id="emailAlert" style={{display: 'none', color: "red"}}> I need to know where to contact you!</span>
+                                        <span id="emailAlert2" style={{display: 'none', color: "red"}}> That email address doesn't seem right.</span>
                                         <INPUT id='email' className="form-control pagination-center" placeholder="user@server.com" type="text" name="Email"/><br/>
                                     </div>
                                     <div className='has-warning'>
                                         <span>Message*</span>
-                                        <span id="messageAlert" style={{display: 'none', color: "red"}}> Wait... you forgot your message.</span>						
+                                        <span id="messageAlert" style={{display: 'none', color: "red"}}> Wait... you forgot your message.</span>
                                         <TEXTAREA id='message' className="form-control pagination-center" placeholder="Write your message here." type="text" name="Message"></TEXTAREA><br/>
                                     </div>
                                     <div id="recaptcha" className="g-recaptcha" data-sitekey={this.recaptchaKey} style={{paddingBottom: "10px"}}></div>
@@ -72,10 +72,10 @@ class Contact extends Component {
                             </Quotes>
                         </div>
 
-                        
+
 
                         {/*Social networks section*/}
-                       
+
 
                     </div>
             </div>

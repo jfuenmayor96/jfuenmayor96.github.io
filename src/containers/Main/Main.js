@@ -4,7 +4,7 @@ import {DivLogo, H1, H2, HR, IMG} from './Main.style';
 class Main extends Component {
     render() {
         return (
-            <div style={{marginTop: '57px'}}>
+            <div style={{marginTop: '57px'}} id="top">
                 <div>
                     <div className="container-fluid">
                         <div className="row">
