@@ -12,7 +12,7 @@ class Skills extends Component {
                 <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2"><span></span></div>
 
 
-                <div id="carousel" className="carousel slide col-lg-8 col-md-8 col-sm-12 col-xs-12" data-ride="carousel" data-interval="5000" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" style={{height: '170px'}}>
+                <div id="carousel" className="carousel slide col-lg-8 col-md-8 col-sm-12 col-xs-12" data-ride="carousel" data-interval="5000" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" style={{height: '220px'}}>
 
                     <div className="carousel-inner ">
                         <DIV className="item">
@@ -29,7 +29,7 @@ class Skills extends Component {
                             </div>
                         </DIV>
                         <DIV className="item active" alt="Front and back end">
-                            <div className="row-fluid">    
+                            <div className="row-fluid">
                                 <H3 data-aos="zoom-in" data-aos-offset="80" data-aos-once="false" data-aos-delay='900'>Front and Back end Tools</H3><br/>
                                 <div className="col-lg-2 col-md-2 col-sm-2 col-xs-4" data-aos="fade-down" data-aos-offset="80" data-aos-once="true" data-aos-delay='100'>
                                     <IMG src={require("../../assets/About/icons/html5.png")} alt="HTML5" title="HTML5"/>
@@ -115,7 +115,7 @@ class Skills extends Component {
                             <div className="col-lg-4 col-md-4 col-sm-4 col-xs-2"><span></span></div>
                         </DIV>
                     </div>
-                    
+
                     <a className="left carousel-control" href="#carousel" data-slide="prev" style={{background: 'none'}}>
                         <span className="glyphicon glyphicon-chevron-left"></span>
                         <span className="sr-only">Previous</span>
